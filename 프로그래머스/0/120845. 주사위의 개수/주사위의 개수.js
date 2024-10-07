@@ -1,0 +1,1 @@
+const solution = (box, n) => box.map(length => Math.floor(length / n)).reduce((a, c) => a * c)
