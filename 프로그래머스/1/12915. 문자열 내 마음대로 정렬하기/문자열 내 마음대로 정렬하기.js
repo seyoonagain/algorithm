@@ -1,0 +1,1 @@
+const solution = (strings, n) => strings.sort((a, b) => a.localeCompare(b)).sort((a, b) => a[n].localeCompare(b[n]))
