@@ -1,0 +1,1 @@
+const solution = number => BigInt(number) % BigInt(9)
