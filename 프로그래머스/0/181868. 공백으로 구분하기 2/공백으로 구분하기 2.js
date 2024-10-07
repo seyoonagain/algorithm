@@ -1,0 +1,1 @@
+const solution = str => str.trim().replaceAll(/\s{1,}/g, ' ').split(' ')
