@@ -1,0 +1,1 @@
+const solution = n => Array(n).fill(Array(n).fill(0)).map((arr, idx) => arr.map((_, idx2) => idx === idx2 ? 1 : 0))
