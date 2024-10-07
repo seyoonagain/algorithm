@@ -1,0 +1,1 @@
+const solution = age => [...age.toString()].map(str => String.fromCodePoint(+str + 97)).join('')
