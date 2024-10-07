@@ -1,0 +1,1 @@
+const solution = (arr, intervals) => intervals.map(interval => arr.slice(interval[0], interval[1] + 1)).flat()
