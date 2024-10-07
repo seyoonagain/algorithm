@@ -1,0 +1,1 @@
+const solution = (arr, idx1, idx2) => arr.slice(idx1, idx2 + 1)
