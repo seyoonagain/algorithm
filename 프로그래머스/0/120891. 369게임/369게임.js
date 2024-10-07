@@ -1,0 +1,1 @@
+const solution = order => (order + "").replaceAll(/[3, 6, 9]/g, " ").split(" ").length - 1
