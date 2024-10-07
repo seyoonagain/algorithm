@@ -1,0 +1,1 @@
+const solution = my_string => [...my_string.toLowerCase()].sort((a, b) => a.localeCompare(b)).join('')
