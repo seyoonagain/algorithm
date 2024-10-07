@@ -1,0 +1,1 @@
+const solution = (cipher, code) => [...cipher].filter((_, idx) => (idx + 1) % code === 0).join('')
