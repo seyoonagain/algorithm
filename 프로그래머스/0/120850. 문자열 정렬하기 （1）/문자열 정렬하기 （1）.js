@@ -1,0 +1,1 @@
+const solution = string => string.match(/[0-9]/g).sort((a, b) => a - b).map(str => +str)
