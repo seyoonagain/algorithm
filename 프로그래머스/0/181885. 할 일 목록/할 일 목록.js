@@ -1,0 +1,1 @@
+const solution = (todo, done) => todo.filter((td, idx) => !done[idx])
