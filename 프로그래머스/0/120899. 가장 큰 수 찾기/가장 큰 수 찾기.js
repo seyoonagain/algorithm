@@ -1,0 +1,1 @@
+const solution = array => [Math.max(...array), array.findIndex(num => num === Math.max(...array))]
