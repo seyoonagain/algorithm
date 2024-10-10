@@ -17,14 +17,12 @@ function solution(bandage, maxHp, attacks) {
         if(currentHp > maxHp) currentHp = maxHp
         
         if(attackTime.includes(i)) {
-            const [, attackDamage] = attacks.find(attack => attack[0] === i)
-            currentHp -= attackDamage
             streakCount = 0
+            const [, attackDamage] = attacks.find(attack => attack[0] === i)
+            currentHp <= attackDamage ? currentHp = -1 : currentHp -= attackDamage
         }
-        if(currentHp <= 0) {
-            currentHp = -1
-            break;
-        }
+        
+        if(currentHp === -1) break
     }
     
     return currentHp
