@@ -1,6 +1,6 @@
 function solution(rows, moves) {
     const cols = Array(rows.length).fill(Array(0))
-    cols.forEach((col, idx) => cols[idx] = rows.map(row => row[idx])
+    cols.forEach((_, idx) => cols[idx] = rows.map(row => row[idx])
                                                 .reverse()
                                                 .filter(num => num !== 0))
     const indexInOrder = moves.map(colNum => colNum - 1)
