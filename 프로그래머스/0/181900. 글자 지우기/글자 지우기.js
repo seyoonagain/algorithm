@@ -1,0 +1,1 @@
+const solution = (str, indices) => [...str].filter((_,si) => !indices.some(index => index === si)).join('')
