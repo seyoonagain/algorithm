@@ -1,0 +1,1 @@
+const solution = (arr, queries) => arr.map((n, idx) => n + queries.filter(q => q[0] <= idx && idx <= q[1]).length)
