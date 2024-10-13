@@ -1,0 +1,1 @@
+const solution = (d1, d2) => [d1, d2].map(([y, m, d]) => new Date(y, m, d)).reduce((a, b) => a - b < 0 ? 1 : 0)
