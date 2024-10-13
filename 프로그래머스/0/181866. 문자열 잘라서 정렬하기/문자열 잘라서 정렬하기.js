@@ -1,0 +1,1 @@
+const solution = (myString) => myString.split('x').filter(char => char !== '').sort((a, b) => a.localeCompare(b))
