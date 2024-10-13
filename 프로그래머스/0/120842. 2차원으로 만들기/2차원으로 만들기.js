@@ -1,0 +1,1 @@
+const solution = (numList, n) => Array(numList.length / n).fill([]).map((_, i) => numList.splice(0, n))
