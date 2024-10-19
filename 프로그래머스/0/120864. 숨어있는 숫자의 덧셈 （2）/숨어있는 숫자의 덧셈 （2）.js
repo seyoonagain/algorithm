@@ -1,0 +1,1 @@
+const solution = str => str.match(/[0-9]*/g).reduce((acc, curr) => acc + +curr, 0)
