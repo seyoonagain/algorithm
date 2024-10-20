@@ -1,0 +1,1 @@
+const solution = arr => arr.join('').split(/[^7]/g).join('').length
